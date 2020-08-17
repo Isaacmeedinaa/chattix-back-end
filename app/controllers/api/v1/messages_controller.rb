@@ -1,4 +1,4 @@
-class API::V1::MessagesController < ApplicationController
+class Api::V1::MessagesController < ApplicationController
 
     def create
         message = Message.new(message_params)
